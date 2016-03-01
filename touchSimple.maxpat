@@ -38,19 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 59.0, 72.0, 74.0, 22.0 ],
-					"style" : "",
-					"text" : "patcherargs"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "fader5",
 					"id" : "obj-23",
 					"maxclass" : "outlet",
@@ -202,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 123.0, 184.0, 33.0 ],
+					"patching_rect" : [ 181.0, 123.0, 184.0, 34.0 ],
 					"style" : "",
 					"text" : "regexp matches patterns in () and sends them to 2nd outlet."
 				}
@@ -239,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 309.0, 343.25, 154.0 ],
+					"patching_rect" : [ 30.0, 309.0, 343.25, 158.0 ],
 					"style" : "",
 					"text" : "1) Fire up TocuOSC on your mobile device\n2) Make sure your phone and PC are on the same network.\n3) Know your PC ip address \n    From the command line (cmd or terminal)\n   (Windows: ipconfig;\n     Mac terminal: ipconfig getifaddr en0 )\n4) In TouchOSC:\n      a) set HOST to ipaddress of computer\n      b) set Port(outgoing) to match Max udpreceive arg\n      c) set LAYOUT to Simple\n      d) set Options (disable accelerometer unless you need it)",
 					"textcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
@@ -496,7 +483,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 40.0, 158.0, 304.0, 35.0 ],
+					"patching_rect" : [ 40.0, 158.0, 304.0, 36.0 ],
 					"style" : "",
 					"text" : "regexp /accxyz\\\\s([-]?\\\\d*\\\\.\\\\d*)\\\\s([-]?\\\\d*\\\\.\\\\d*)\\\\s([-]?\\\\d*\\\\.\\\\d*)"
 				}
@@ -580,7 +567,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 232.0, 18.0, 72.0, 35.0 ],
+					"patching_rect" : [ 232.0, 18.0, 72.0, 36.0 ],
 					"style" : "",
 					"text" : "/1/fader1 0.306692"
 				}
